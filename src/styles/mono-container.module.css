@@ -1,11 +1,17 @@
 .paperBackground {
-  background-image: url("../../public/images/watercolor-splat.png"), url("../../public/images/grainPaper.png");
+  background-image: url("../../public/images/tealWatercolor.png"), url("../../public/images/grainPaper.png");
   background-repeat: no-repeat, repeat;
-  background-position: top -200px left -350px;
-  background-size: 1100px, 500px;
+  background-position: top -450px left -115px;
+  background-size: 900px;
+  background-blend-mode: multiply;
+}
+
+.paperBackground::before {
+  background-image: url("../../public/images/tealWatercolor.png"), url("../../public/images/grainPaper.png");
+  transform: rotate(180deg) 
 }
 
 .drawnBorder {
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border:solid 2px rgb(0, 0, 0);
+    border: 2px solid black;
 }
