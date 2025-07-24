@@ -1,14 +1,9 @@
 .paperBackground {
-  background-image: url("../../public/images/tealWatercolor.png"), url("../../public/images/grainPaper.png");
+  background-image: url("/images/teal-watercolor.png"), url("/images/grain-paper.png");
   background-repeat: no-repeat, repeat;
-  background-position: top -450px left -115px;
+  background-position: top -450px left -120px;
   background-size: 900px;
   background-blend-mode: multiply;
-}
-
-.paperBackground::before {
-  background-image: url("../../public/images/tealWatercolor.png"), url("../../public/images/grainPaper.png");
-  transform: rotate(180deg) 
 }
 
 .drawnBorder {
