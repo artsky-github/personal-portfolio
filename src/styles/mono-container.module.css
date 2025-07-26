@@ -1,7 +1,7 @@
 .paperBackground {
-  background-image: url("/images/teal-watercolor.png"), url("/images/grain-paper.png");
+  background-image: url("/images/green-watercolor.jpg"), url("/images/grain-paper.png");
   background-repeat: no-repeat, repeat;
-  background-position: top -450px left -120px;
+  background-position: top -260px left 0px;
   background-size: 900px;
   background-blend-mode: multiply;
 }
